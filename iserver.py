@@ -9,9 +9,9 @@ from flask import Response
 from demo import *
 
 app = Flask(__name__)
-Token = "EapMIQgIFXjqJj3M2JM0lkhUkei6Ai"
-EncodingAESKey = "5bu6D9F49TeAy6DJXe12FmJvBrfmDoYSCe7WWeOgUiI"
-corpId = "wwcb064012f8a72f8d"
+Token = "你的TOKEN"
+EncodingAESKey = "你的key"
+corpId = "你的ID"
 
 wxcpt = WXBizMsgCrypt(Token,EncodingAESKey,corpId)
 xml_parse = XMLParse()
